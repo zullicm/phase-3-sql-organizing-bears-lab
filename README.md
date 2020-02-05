@@ -76,7 +76,7 @@ Read about [SQLite3 Datatypes](https://www.sqlite.org/datatype3.html) to determi
 
 ## Part 2: `INSERT`
 
-Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them):
+Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them, but make gender either 'M' or 'F'):
 
 * Mr. Chocolate
 * Rowdy
