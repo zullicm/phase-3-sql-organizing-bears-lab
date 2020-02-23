@@ -67,16 +67,16 @@ Your columns should be the following types:
 |id     |integer| <-- Make sure this is the table's primary key
 |name   |text   |
 |age    |integer|
-|gender |text   |(The choices could be "Male", "Female", "Other", or "Prefer not to say")|
+|gender |text   | <-- Should be a single, capitalized letter: 'M' or 'F'
 |color  |text   |
-|temperament|text|
+|temperament | text|
 |alive  |boolean|
 
 Read about [SQLite3 Datatypes](https://www.sqlite.org/datatype3.html) to determine what your insert values are going to be. Be sure to pay attention to how booleans are expressed in SQLite3.
 
 ## Part 2: `INSERT`
 
-Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them):
+Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them, but make gender either 'M' or 'F'):
 
 * Mr. Chocolate
 * Rowdy
