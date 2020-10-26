@@ -98,4 +98,4 @@ You may be expected to use SQL statements that you're not particularly familiar 
 [SQL Datatypes](https://www.sqlite.org/datatype3.html)
 [SQL GROUP BY](https://www.sqlite.org/lang_select.html#resultset)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/SQL-bear-organizer-lab' title='SQL Bear Organizer'>SQL Bear Organizer</a> on Learn.co and start learning to code for free.</p>
+
