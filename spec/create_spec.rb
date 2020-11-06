@@ -13,8 +13,8 @@ describe 'creating bears table' do
     expect{@db.execute("SELECT age FROM bears;")}.to_not raise_exception
   end
 
-  it "creates a bears table with a gender field" do
-    expect{@db.execute("SELECT gender FROM bears;")}.to_not raise_exception
+  it "creates a bears table with a sex field" do
+    expect{@db.execute("SELECT sex FROM bears;")}.to_not raise_exception
   end
 
   it "creates a bears table with a color field" do

@@ -67,7 +67,7 @@ Your columns should be the following types:
 |id     |integer| <-- Make sure this is the table's primary key
 |name   |text   |
 |age    |integer|
-|gender |text   | <-- Should be a single, capitalized letter: 'M' or 'F'
+|sex    |text   | <-- Should be a single, capitalized letter: 'M' or 'F'
 |color  |text   |
 |temperament | text|
 |alive  |boolean|
@@ -76,7 +76,7 @@ Read about [SQLite3 Datatypes](https://www.sqlite.org/datatype3.html) to determi
 
 ## Part 2: `INSERT`
 
-Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them, but make gender either 'M' or 'F'):
+Get the tests in `spec/insert_spec.rb` to pass. Input the following 8 bears (you can make up details about them, but make sex either 'M' or 'F'):
 
 * Mr. Chocolate
 * Rowdy
