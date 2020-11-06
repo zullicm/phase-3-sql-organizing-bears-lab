@@ -139,5 +139,6 @@ with. Make sure you use the resources and Google to find the right statements.
 
 ## Resources
 
-[SQL Datatypes](https://www.sqlite.org/datatype3.html)
-[SQL GROUP BY](https://www.sqlite.org/lang_select.html#resultset)
+- [SQL Datatypes](https://www.sqlite.org/datatype3.html)
+
+- [SQL GROUP BY](https://www.sqlite.org/lang_select.html#resultset)
