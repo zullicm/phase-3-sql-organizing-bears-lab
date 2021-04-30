@@ -1,4 +1,4 @@
-# SQL Bear Organizer
+# Organizing Bear Lab
 
 [Timothy Treadwell](http://en.wikipedia.org/wiki/Timothy_Treadwell) has a lot on
 his plate protecting the bears of the Katmai National Park in Alaska. Help him
@@ -6,11 +6,11 @@ keep track of all of his bear friends using SQL.
 
 ![timothy-treadwell](http://m2.paperblog.com/i/74/746121/lagghiacciante-morte-delluomo-grizzly-sbranat-L-rr7aep.jpeg)
 
-## Objectives
+## Learning Goals
 
-1. Use the `CREATE TABLE` command to create a new table with various data types
-2. Use the `INSERT INTO` command to insert data (i.e. rows) into a database table
-3. Use the `SELECT` command with various functions and modifiers to write queries
+- Use the `CREATE TABLE` command to create a new table with various data types
+- Use the `INSERT INTO` command to insert data (i.e. rows) into a database table
+- Use the `SELECT` command with various functions and modifiers to write queries
 
 ## Lab Structure
 
