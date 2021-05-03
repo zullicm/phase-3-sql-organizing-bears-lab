@@ -4,7 +4,6 @@
 his plate protecting the bears of the Katmai National Park in Alaska. Help him
 keep track of all of his bear friends using SQL.
 
-![timothy-treadwell](http://m2.paperblog.com/i/74/746121/lagghiacciante-morte-delluomo-grizzly-sbranat-L-rr7aep.jpeg)
 
 ## Learning Goals
 
