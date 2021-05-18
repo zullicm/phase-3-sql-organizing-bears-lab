@@ -1,4 +1,4 @@
-# Organizing Bear Lab
+# Organizing Bears Lab
 
 [Timothy Treadwell](http://en.wikipedia.org/wiki/Timothy_Treadwell) has a lot on
 his plate protecting the bears of the Katmai National Park in Alaska. Help him
