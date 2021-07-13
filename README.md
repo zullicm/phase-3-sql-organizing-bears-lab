@@ -137,14 +137,13 @@ about them, but make sex either 'M' or 'F'):
 - Melissa
 - Grinch
 - Wendy
-- unnamed (the bear that killed Tim didn't have a name; refer back to how to
-  create a record that doesn't have one value)
+- unnamed (refer back to how to create a record that doesn't have one value)
 
 ## Part 3: `SELECT`
 
 Get the tests in `spec/select_spec.rb` to pass. Note that for this section, the
 database will be seeded with external data from the `lib/seed.sql` file so don't
-expect it to reflect the data you added above. 
+expect it to reflect the data you added above.
 
 **Note**: Since it's a Ruby file, write your queries as strings within methods
 in the `lib/sql_queries.rb` file. For example, to pass the first test, your Ruby
