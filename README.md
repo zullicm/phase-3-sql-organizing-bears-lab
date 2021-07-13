@@ -38,10 +38,13 @@ To install the `sqlite3` gem, run:
 bundle install
 ```
 
-You'll need to run this command before running the tests in every lab with a
-`Gemfile`. As a reminder, the `Gemfile` is where we specify the dependencies for
-a Ruby application. Running `bundle install` will download the gems listed in
-this file to your system.
+Running `bundle install` is a good habit to get into when setting up new Ruby
+applications with a `Gemfile`. As a reminder, the `Gemfile` is where we specify
+the dependencies for a Ruby application. Running `bundle install` will download
+the gems listed in this file to your system.
+
+In case you forget though, running `learn test` will **also** run
+`bundle install` if you haven't already installed the necessary gems.
 
 ### A Note on Testing
 
@@ -150,7 +153,7 @@ in the `lib/sql_queries.rb` file. For example, to pass the first test, your Ruby
 method should look like this:
 
 ```rb
-def selects_all_female_bears_return_name_and_age 
+def selects_all_female_bears_return_name_and_age
   "SELECT bears.name, bears.age FROM bears WHERE sex='F';"
 end
 ```
@@ -159,14 +162,14 @@ You can also write the SQL strings in a Ruby [heredoc][heredoc] to help with
 formatting:
 
 ```rb
-def selects_all_female_bears_return_name_and_age 
+def selects_all_female_bears_return_name_and_age
   <<-SQL
-    SELECT 
-      bears.name, 
-      bears.age 
-    FROM 
-      bears 
-    WHERE 
+    SELECT
+      bears.name,
+      bears.age
+    FROM
+      bears
+    WHERE
       sex='F';
   SQL
 end
