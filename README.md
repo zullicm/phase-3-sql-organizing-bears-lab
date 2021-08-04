@@ -71,41 +71,15 @@ CREATE TABLE bears (
 
 Your columns should be the following types:
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>column</th>
-    <th>type</th>
-  </tr>
-  
-  <tr>
-    <td>id</td>
-    <td>integer</td>
-  </tr>
-  <tr>
-    <td>name</td>
-    <td>text</td>
-  </tr>
-  <tr>
-    <td>age</td>
-    <td>integer</td>
-  </tr>
-  <tr>
-    <td>sex</td>
-    <td>text</td>
-  </tr>
-  <tr>
-    <td>color</td>
-    <td>text</td>
-  </tr>
-  <tr>
-    <td>temperament</td>
-    <td>text</td>
-  </tr>
-  <tr>
-    <td>alive</td>
-    <td>boolean</td>
-  </tr>
-</table>
+| column | type |
+| --- | --- |
+| id | integer |
+| name | text |
+| age | integer |
+| sex | text |
+| color | text |
+| temperament | text |
+| alive | boolean |
 
 Read about [SQLite3 Datatypes](https://www.sqlite.org/datatype3.html) to
 determine what your insert values are going to be. Be sure to pay attention to
