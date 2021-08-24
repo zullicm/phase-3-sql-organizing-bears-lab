@@ -34,8 +34,8 @@ Ruby. How cool is that!? We'll use this gem more in the lessons to come.
 
 To install the `sqlite3` gem, run:
 
-```sh
-bundle install
+```console
+$ bundle install
 ```
 
 Running `bundle install` is a good habit to get into when setting up new Ruby
@@ -87,15 +87,15 @@ CREATE TABLE bears (
 
 Your columns should be the following types:
 
-| column | type |
-| --- | --- |
-| id | integer |
-| name | text |
-| age | integer |
-| sex | text |
-| color | text |
-| temperament | text |
-| alive | boolean |
+| column      | type    |
+| ----------- | ------- |
+| id          | integer |
+| name        | text    |
+| age         | integer |
+| sex         | text    |
+| color       | text    |
+| temperament | text    |
+| alive       | boolean |
 
 Read about [SQLite3 Datatypes](https://www.sqlite.org/datatype3.html) to
 determine what your insert values are going to be. Be sure to pay attention to
